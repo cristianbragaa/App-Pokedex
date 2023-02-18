@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/crist/Projetos de minha autoria/PokedexApp/app/src/main/res/drawable/degrade_fundo.xml" value="0.229" />
+        <entry key="..\:/Users/crist/Projetos de minha autoria/PokedexApp/app/src/main/res/drawable/drawable_backgroud.xml" value="0.224" />
+        <entry key="..\:/Users/crist/Projetos de minha autoria/PokedexApp/app/src/main/res/drawable/drawable_textview.xml" value="0.224" />
+        <entry key="..\:/Users/crist/Projetos de minha autoria/PokedexApp/app/src/main/res/drawable/gradient_view.xml" value="0.224" />
+        <entry key="..\:/Users/crist/Projetos de minha autoria/PokedexApp/app/src/main/res/drawable/shape_fundo_text.xml" value="0.229" />
+        <entry key="..\:/Users/crist/Projetos de minha autoria/PokedexApp/app/src/main/res/drawable/shape_imagem.xml" value="0.224" />
+        <entry key="..\:/Users/crist/Projetos de minha autoria/PokedexApp/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/crist/Projetos de minha autoria/PokedexApp/app/src/main/res/layout/item_pokemom.xml" value="0.33" />
+        <entry key="..\:/Users/crist/Projetos de minha autoria/PokedexApp/app/src/main/res/layout/recycler_view_item.xml" value="0.36822916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

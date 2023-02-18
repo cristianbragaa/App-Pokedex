@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PokedexApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primaria</item>
+        <item name="colorPrimaryVariant">@color/primaria_variacao</item>
+        <item name="colorOnPrimary">@color/preto</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secundaria</item>
+        <item name="colorSecondaryVariant">@color/secundaria_variacao</item>
+        <item name="colorOnSecondary">@color/preto</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <!-- Ativa transições de conteúdos da janela -->
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <!-- Especifica transição de entrada e saida -->
+        <item name="android:windowEnterTransition">@android:transition/no_transition</item>
+        <item name="android:windowExitTransition">@android:transition/no_transition</item>
+        <!-- Especifica transição do elemento compartilhado -->
+        <item name="android:windowSharedElementEnterTransition">@transition/shared_element_transition</item>
+        <item name="android:windowSharedElementExitTransition">@transition/shared_element_transition</item>
+    </style>
+</resources>

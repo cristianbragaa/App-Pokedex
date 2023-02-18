@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores base app-->
+    <color name="primaria">#FE0000</color>
+    <color name="primaria_variacao">#FE0000</color>
+    <color name="secundaria">#FE0000</color>
+    <color name="secundaria_variacao">#FE0000</color>
+    <color name="vermelho">#AE2419</color>
+    <color name="preto">#FF000000</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="fundo_cinza">#252525</color>
+    <color name="cinza_claro">#E3E3E3</color>
+
+    <!-- Cores fundo pokemons -->
+    <color name="fundo_red">#EC7C7C</color>
+    <color name="fundo_blue">#6699FF</color>
+    <color name="fundo_green">#339933</color>
+    <color name="fundo_yellow">#FFFF99</color>
+    <color name="fundo_purple">#C596BD</color>
+    <color name="fundo_pink">#FF33CC</color>
+    <color name="fundo_brown">#CC9966</color>
+    <color name="fundo_black">#333333</color>
+    <color name="fundo_gray">#808080</color>
+    <color name="fundo_cinza_claro">#E3E3E3</color>
+
+    <!-- Cores fundo dos tipos dos pokemons -->
+    <color name="fundo_tipo_normal">#A8A878</color>
+    <color name="fundo_tipo_fire">#F08030</color>
+    <color name="fundo_tipo_water">#6890F0</color>
+    <color name="fundo_tipo_grass">#78C850</color>
+    <color name="fundo_tipo_flying">#A890F0</color>
+    <color name="fundo_tipo_fighting">#C03028</color>
+    <color name="fundo_tipo_poison">#A040A0</color>
+    <color name="fundo_tipo_electric">#F8D030</color>
+    <color name="fundo_tipo_ground">#CDBB8A</color>
+    <color name="fundo_tipo_rock">#AA9435</color>
+    <color name="fundo_tipo_psychic">#F85888</color>
+    <color name="fundo_tipo_ice">#98D8D8</color>
+    <color name="fundo_tipo_bug">#57913A</color>
+    <color name="fundo_tipo_ghost">#705898</color>
+    <color name="fundo_tipo_steel">#B8B8D0</color>
+    <color name="fundo_tipo_dragon">#A27DFA</color>
+    <color name="fundo_tipo_dark">#705848</color>
+    <color name="fundo_tipo_fairy">#EE99AC</color>
+</resources>

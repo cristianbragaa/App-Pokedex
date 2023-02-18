@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Pokedex</string>
+    <!-- item_pokemon -->
+    <string name="text_title">Squirtle</string>
+    <string name="text_number">001</string>
+    <string name="text_natureza01">Natureza</string>
+    <string name="text_natureza02">Natureza</string>
+    <!-- activity_main -->
+    <string name="text_principal_title">Pokedex</string>
+    <!-- activity_detalhes -->
+    <string name="text_detail_number">Nº 001</string>
+    <string name="text_detail_kg">00.0 KG</string>
+    <string name="text_detail_m">0.0 M</string>
+    <string name="text_detail_weight">Weight</string>
+    <string name="text_detail_height">Height</string>
+    <string name="text_detail_name">Squirtle</string>
+    <string name="text_detail_base_stat">BASE STATS</string>
+    <string name="text_detail_exp">EXP</string>
+    <string name="text_detail_hp">HP</string>
+    <string name="text_detail_atk">ATK</string>
+    <string name="text_detail_def">DEF</string>
+    <string name="text_detail_spd">SPD</string>
+    <string name="text_detail_title">Pokedex</string>
+</resources>

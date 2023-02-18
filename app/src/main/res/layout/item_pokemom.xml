@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/constraintItemPokemon"
+    android:layout_width="210dp"
+    android:layout_height="310dp"
+    android:background="@color/fundo_cinza"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <TextView
+        android:id="@+id/textNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_title"
+        android:textColor="@color/branco"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardPrincipal"
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:transitionName="imageTransition"
+        app:cardCornerRadius="20dp"
+        app:cardPreventCornerOverlap="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNome">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/imagePokemom"
+            android:layout_width="170dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/shape_image"
+            android:scaleType="centerCrop"
+            app:layout_constraintTop_toBottomOf="@+id/textNome" />
+
+        <ProgressBar
+            android:id="@+id/progressItem"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_number"
+        android:textColor="@color/branco"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardPrincipal" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewType1"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/cardViewType2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textNumber">
+
+        <TextView
+            android:id="@+id/textNatureza1"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_natureza01"
+            android:textAlignment="center"
+            android:textColor="@color/branco"
+            app:layout_constraintBottom_toBottomOf="@+id/cardViewType1"
+            app:layout_constraintEnd_toEndOf="@+id/cardViewType1"
+            app:layout_constraintStart_toStartOf="@+id/cardViewType1"
+            app:layout_constraintTop_toTopOf="@+id/cardViewType1" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewType2"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:cardCornerRadius="7dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cardViewType1"
+        app:layout_constraintTop_toBottomOf="@+id/textNumber">
+
+        <TextView
+            android:id="@+id/textNatureza2"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/text_natureza02"
+            android:textAlignment="center"
+            android:textColor="@color/branco"
+            app:layout_constraintBottom_toBottomOf="@+id/cardViewType2"
+            app:layout_constraintEnd_toEndOf="@+id/cardViewType2"
+            app:layout_constraintStart_toStartOf="@+id/cardViewType2"
+            app:layout_constraintTop_toTopOf="@+id/cardViewType2" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
