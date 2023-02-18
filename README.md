@@ -16,6 +16,8 @@ Para montar esse objeto Pokemon foi utilizado os dados das duas outras chamadas 
 
 Com isso foi construído o objeto final pokemon, com esse objeto pronto e sendo retornado foi pego esse retorno na mainViewModel e posteriormente adicionado ao meu objeto observável liveData que por sua vez é observado pela MainActivity que recebe essa List de Pokemon e manda para meu Adapter.
 
+# Api utilizada -> https://pokeapi.co/
+
 https://user-images.githubusercontent.com/77281161/219824379-b71bcc9b-84ff-4be5-890e-3af14efc24ea.mp4
 
 
