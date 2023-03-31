@@ -18,7 +18,8 @@ Com isso foi construído o objeto final pokemon, com esse objeto pronto e sendo 
 
 # Api utilizada -> https://pokeapi.co/
 
-https://user-images.githubusercontent.com/77281161/219824379-b71bcc9b-84ff-4be5-890e-3af14efc24ea.mp4
+![telaPrincipal](https://user-images.githubusercontent.com/77281161/229191190-bfe879a5-b6ca-436d-aab2-dda05564ac97.png)
+![telaDetalhesPokemon](https://user-images.githubusercontent.com/77281161/229191192-57a072c9-00a3-4548-92a3-76895a7e60cc.png)
 
 
 
